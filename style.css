@@ -7,6 +7,19 @@
     This is also a nice hint what kind of content to use!
 
 **/
+img {
+    border-radius: 10px;   
+}
+ 
+.flex { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+ h1,h3{
+    text-align: center;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -15,6 +28,7 @@ body {
 .ingredient {
     background: #e4f7e4; /* Light blueish-green color */
     border: 2px solid #d5d5d5; /* Light gray color */
+    border-radius: 10px;
 }
 
 /* Hint; look at the example image. The _first_ Unordered List has a light blue background! */
@@ -43,16 +57,20 @@ Hint: this targets
     - all the links (a)
     - inside the third div on the page (div:nth-last-of-type(3)
 */
-div:nth-of-type(3) a {
+div:nth-of-type(4) a {
     color: red;
     text-decoration: none;
 }
+div:nth-of-type(4) a:hover {
+    color: green;
+}
 
-div:nth-of-type(4) a {
+
+div:nth-of-type(5) a {
     color: dodgerblue;
     text-decoration: none;
 }
 
-div:nth-of-type(4) a:hover {
+div:nth-of-type(5) a:hover {
     color: orange;
 }
